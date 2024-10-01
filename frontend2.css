@@ -1,0 +1,60 @@
+tr.row1 {
+    color: #000000;
+    background-color: #138f8f;
+}
+tr.row2 {
+    color: #000000;
+    background-color: #f5f513;
+}
+tr.row1:hover {
+    color: #138f8f;
+    background-color: #000000;
+}
+tr.row2:hover {
+    color: #f5f513;
+    background-color: #000000;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+  
+.shape {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #000000;
+    border-width: thin;
+    position: absolute;
+}
+  
+.yellow {
+    background-color: lightblue;
+}
+.pink {
+    background-color: yellow;
+}
+.blue {
+    background-color: magenta;
+}
+
+.shape:nth-child(1) {
+    top: 0;
+    left: 75px;
+    transform: rotate(45deg);
+  }
+  
+  .shape:nth-child(2) {
+    bottom: 0;
+    left: -19px;
+    transform: rotate(20deg);
+  }
+  
+  .shape:nth-child(3) {
+    bottom: 0;
+    right: -19px;
+    transform: rotate(-20deg);
+  }
